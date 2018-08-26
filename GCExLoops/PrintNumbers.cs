@@ -132,7 +132,7 @@ namespace GrandCircus.LoopExamples
         /// <returns>Value representing the next array item.</returns>
         public int RecursiveLoop(int currentItem)
         {
-            if (currentItem < 0 || currentItem >= LengthOfFibonacciArray())
+            if (currentItem < 0 || currentItem >= GetFibonacciArrayLength())
             {
                 return -1;
             }
@@ -154,7 +154,7 @@ namespace GrandCircus.LoopExamples
         /// Finds the length of the Fibonacci number array.
         /// </summary>
         /// <returns>Length of the Fibonacci number array.</returns>
-        private int LengthOfFibonacciArray()
+        private int GetFibonacciArrayLength()
         {
             return s_fibonacciNumbers.Length;
         }

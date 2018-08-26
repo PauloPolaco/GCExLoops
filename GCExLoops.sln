@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCExLoops", "GCExLoops\GCExLoops.csproj", "{097FB6FD-B968-4F83-8324-ABFB438BFB78}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24DE8A3F-3CFC-4E2A-B860-84EB1E541124}"
+	ProjectSection(SolutionItems) = preProject
+		LessonOutline.docx = LessonOutline.docx
+		LessonOutline.pdf = LessonOutline.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
