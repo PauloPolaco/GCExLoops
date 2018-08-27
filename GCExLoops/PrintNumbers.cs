@@ -48,6 +48,25 @@ namespace GrandCircus.LoopExamples
             }
         }
 
+        /// <summary>
+        /// Prints a set of coordinates from
+        /// one to ten using a NESTED FOR LOOP.
+        /// </summary>
+        /// <remarks>
+        /// Goes through all Y values first,
+        /// then goes onto the next X value.
+        /// </remarks>
+        public void NestedForLoop()
+        {
+            for (int x = 1; x <= 10; x++)
+            {
+                for (int y = 1; y < 11; y++)
+                {
+                    Console.Write("({0}, {1}) ", x, y);
+                }
+            }
+        }
+
         #endregion For Loop & Foreach Examples
 
         #region Do While Examples

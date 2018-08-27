@@ -11,7 +11,7 @@ namespace GrandCircus.LoopExamples
         static void Main(string[] args)
         {
             InitConsoleColours();
-
+            
             PrintNumbersExamples();
             Console.Clear();
             PrintDaysOfWeekExamples();
@@ -80,6 +80,12 @@ namespace GrandCircus.LoopExamples
             Console.Clear();
             Console.WriteLine("===== FOREACH LOOP BREAK =====\n");
             numbersExample.ForLoopEachBreak();
+            Console.WriteLine();
+            PauseConsole();
+
+            Console.Clear();
+            Console.WriteLine("===== NESTED FOR LOOP =====\n");
+            numbersExample.NestedForLoop();
             Console.WriteLine();
             PauseConsole();
 
